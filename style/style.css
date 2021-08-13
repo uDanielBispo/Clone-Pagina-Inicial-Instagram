@@ -15,7 +15,7 @@ body{
   align-items: center;
   justify-content: start;
   width: 60%;
-  height: 100vh;
+  
 }
 
 .instagram-phone{
@@ -25,7 +25,8 @@ body{
   width: 50%;
 }
 .instagram-phone img{
-  height: 50rem;
+  height: 45rem;
+  margin: 50px 0;
 }
 .instagram-continue{
   display: flex;
@@ -50,6 +51,7 @@ body{
 
 .group:nth-child(1){
   min-height: 19rem;
+  margin-bottom: 1rem;
 }
 
 .instagram-logo{
@@ -64,5 +66,87 @@ body{
   overflow: hidden;
 }
 .profile-photo img{
-  height: 12rem;
+  height: 6rem;
 }
+
+.instagram-login{
+  background-color: #0095f6;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.instagram-logout{
+  color: #0095f6;
+ 
+}
+
+.not-account{
+  color: rgb(160, 160, 160);
+}
+
+.link-blue{
+  color: #0095f6;
+}
+
+.get-the-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.3rem 0;
+
+}
+
+.download{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.app-download{
+  height: 3rem;
+  width: 10rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1){
+  background-image: url(/img/apple-button.png);
+  border-radius: 10px;
+}
+
+.app-download:nth-child(2){
+  background-image: url(/img/googleplay-button.png);
+}
+
+/* MEDIA QUERIES*/
+
+@media (max-width: 1300px) {
+  .instagram-wrapper{
+    width: 90%;
+  }
+}
+
+@media (max-width: 830px) {
+  .instagram-wrapper{
+    width:90%;
+  }
+  .instagram-phone{
+    display: none;
+  }
+  .instagram-continue{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
